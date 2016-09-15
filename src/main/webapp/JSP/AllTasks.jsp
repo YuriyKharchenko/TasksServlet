@@ -7,9 +7,11 @@
     <title>All Tasks</title>
 </head>
 <body>
-
+<h2>
+<a href="AddNew.html">Add new task</a>
+</h2>
 <div style="width: 1200px; margin-left: auto; margin-right: auto;">
-    <table cellpadding="10">
+    <table border="1" width="40% cellpadding="10">
         <tr>
             <th>id</th>
             <th>Name</th>
