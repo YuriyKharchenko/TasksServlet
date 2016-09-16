@@ -6,7 +6,7 @@
   <description>
   </description>
 
-  <servlet>
+<!--  <servlet>
     <servlet-name>AllTasks</servlet-name>
     <servlet-class>ua.goit.java.servlet.AllTasks</servlet-class>
   </servlet>
@@ -31,5 +31,5 @@
   <servlet-mapping>
     <servlet-name>DeleteTask</servlet-name>
     <url-pattern>/delete</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping>-->
 </web-app>

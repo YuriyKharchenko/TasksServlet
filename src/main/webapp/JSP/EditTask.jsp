@@ -10,18 +10,21 @@
 
 <html>
 <head>
+
     <title>Edit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
     <h1>Edit task</h1>
-    <div style="width: 900px; margin-left: auto; margin-right: auto;">
+    <div style="width: 50%; margin-left: 20px" class="brd">
         <c:forEach items="${getTaskById}" var="p">
-            <form action="JSP/ManageEditTask.jsp" method="post">
+            <form class="form-horizontal" action="JSP/ManageEditTask.jsp" method="post">
                 <%--<input type="hidden" value="${p.id}">--%>
                 <br>
-                <input type="hidden" value="${p.id}" name="ID" style="width:50px" >
+                <input  type="hidden" value="${p.id}" name="ID" style="width:50px" >
                 Name:<br>
-                <input type="text" value="${p.name}" name="name" style="width:200px" >
+                <input class="form-control" type="text" value="${p.name}" name="name" style="width:200px" >
                 Category:
                 <select name="category">
                     <option value="${p.category}">${p.category}</option>
