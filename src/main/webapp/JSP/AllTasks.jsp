@@ -36,9 +36,9 @@
                 <td>${p.category}</td>
                 <td>${p.complete}</td>
                 <td>
-                    <a href="edit?id=${p.id}">Edit</a>
-                    <a href="delete?id=${p.id}">Delete</a>
-                </td>
+                <a href="edit?id=${p.id}">Edit</a>
+                <a href="delete?id=${p.id}">Delete</a>
+            </td>
             </tr>
         </c:forEach>
     </table>
