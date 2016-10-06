@@ -57,7 +57,7 @@ public class Task {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", category='" + category + '\'' +
-                ", complete='" + complete + '\'' +
+                ", complete ='" + complete + '\'' +
                 '}';
     }
 }
