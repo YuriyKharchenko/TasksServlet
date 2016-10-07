@@ -1,6 +1,5 @@
-.idea/
-/target/
-/out/
-/resources/
+
+# IntellijIdea files
 *.iml
-*.log
+.idea
+out
